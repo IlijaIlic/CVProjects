@@ -3,7 +3,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
-    img = cv.imread("./resources/bird.png")
+    img = cv.imread("./resources/lenna.png")
     img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
 
